@@ -1,0 +1,49 @@
+html, body, body div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, abbr, address, cite, code, del, dfn, em, img, ins, kbd, q, samp, small, strong, sub, sup, var, b, i, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, figure, footer, header, menu, nav, section, time, mark, audio, video, details, summary {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font-weight: 100;
+    vertical-align: baseline;
+    background: transparent;
+  }
+  html {
+    font-size: 16px;
+    min-width: 320px;
+    overflow: hidden;
+    overflow-y: scroll;
+  }
+  
+  body {
+    display: flex;
+    line-height: 1.8;
+  }
+  h1 {
+    font-family: 'Montserrat', 'Noto Sans KR', Arial, sans-serif;
+  }
+  body,
+button,
+input,
+textarea {
+  font-family: "Lora", "LexiSaebom", "Times New Roman", serif;
+}
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+.toc-heading {
+    background: #2e303e;
+    padding: 25px;
+  }
+.toc-section--angular .toc-content .toc-month em {
+    color: #6ecd56;
+    margin-right: 5px;
+}
+.toc-heading i {
+    display: block;
+    font-size: 21px;
+    text-align: center;
+    width: 25px;
+    left: 15px;
+    position: absolute;
+  }
